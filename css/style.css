@@ -1,0 +1,143 @@
+body {
+  font-family: 'Roboto',sans-serif;
+  -webkit-box-sizing: content-box;
+  box-sizing: content-box;
+  margin: 0;
+  padding: 0;
+  font-size: 16px;
+  line-height: 1.5; }
+
+.highlight {
+  padding: 0 .4em;
+  background-color: yellow; }
+
+.app {
+  background-color: #f2f2f2; }
+
+.app__header {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-pack: center;
+  -webkit-justify-content: center;
+  -ms-flex-pack: center;
+  justify-content: center;
+  -webkit-box-align: center;
+  -webkit-align-items: center;
+  -ms-flex-align: center;
+  align-items: center;
+  width: 100%;
+  height: 74px;
+  margin: auto;
+  background-color: #000; }
+  .app__header span {
+    font-style: italic;
+    font-size: 2.5rem;
+    font-weight: 700;
+    color: #50FF44; }
+
+.app__main {
+  width: 1024px;
+  margin: auto;
+  padding: 24px 0; }
+
+.comic {
+  display: -webkit-box;
+  display: -webkit-flex;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-flex-wrap: wrap;
+  -ms-flex-wrap: wrap;
+  flex-wrap: wrap;
+  width: 100%;
+  height: 500px;
+  font-size: 1.2rem; }
+  .comic__img {
+    -webkit-box-flex: 1;
+    -webkit-flex: 1 0 0;
+    -ms-flex: 1 0 0px;
+    flex: 1 0 0;
+    width: 100%;
+    height: inherit;
+    border: 4px solid #000; }
+    .comic__img img {
+      width: 100%;
+      height: 100%; }
+  .comic__content {
+    -webkit-box-flex: 1.5;
+    -webkit-flex: 1.5 1 0;
+    -ms-flex: 1.5 1 0px;
+    flex: 1.5 1 0; }
+  .comic .comic-title {
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: center;
+    -webkit-justify-content: center;
+    -ms-flex-pack: center;
+    justify-content: center;
+    padding: 0 20px;
+    background-color: #000; }
+    .comic .comic-title span {
+      text-align: center;
+      font-size: 2rem;
+      color: #fff; }
+  .comic .comic-info {
+    padding-top: 24px;
+    padding-left: 24px;
+    font-weight: normal; }
+    .comic .comic-info .info-title + .info-title {
+      margin-top: 10px; }
+    .comic .comic-info .info-title span:first-of-type {
+      display: inline-block;
+      width: 100px;
+      font-weight: 700;
+      color: #000; }
+    .comic .comic-info .info-summary {
+      margin-top: 30px; }
+      .comic .comic-info .info-summary span {
+        display: inline-block;
+        width: 100px;
+        font-weight: 700;
+        color: #000; }
+      .comic .comic-info .info-summary p {
+        margin: 10px 0; }
+
+.chapter {
+  margin: 24px 0;
+  font-weight: 500; }
+  .chapter-head {
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    display: flex;
+    font-size: 1.5rem; }
+    .chapter-head span {
+      padding: 8px 20px;
+      background-color: #000;
+      color: #fff; }
+  .chapter-body {
+    display: -webkit-box;
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+    -webkit-flex-direction: column;
+    -ms-flex-direction: column;
+    flex-direction: column;
+    width: 100%;
+    border: 4px solid #000;
+    padding: 10px 0; }
+  .chapter-list {
+    padding: 8px 20px;
+    cursor: pointer; }
+    .chapter-list span + .highlight {
+      margin: 0 10px; }
+    .chapter-list:hover {
+      background-color: #000;
+      color: #fff; }
+      .chapter-list:hover .highlight {
+        color: #000; }
