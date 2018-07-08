@@ -444,6 +444,15 @@ a {
 
 
 @media screen and (max-width: 560px) {
+    .app__comic-page {
+        .topper {
+            padding:0 ;
+        }
+    }
+    .ad {
+            padding: 0;
+        }
+    
     .comic {
         flex-direction: column;
         height: auto;
