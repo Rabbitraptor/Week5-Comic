@@ -444,18 +444,29 @@ a {
 
 
 @media screen and (max-width: 560px) {
+<<<<<<< HEAD
 
     .app__comic-page {
 
+=======
+    .app__comic-page {
+>>>>>>> d65fc37366c4290b03a3247175dd67c3dea50814
         .topper {
             padding:0 ;
         }
     }
+<<<<<<< HEAD
 
     .ad {
         padding: 0;
     }
 
+=======
+    .ad {
+            padding: 0;
+        }
+    
+>>>>>>> d65fc37366c4290b03a3247175dd67c3dea50814
     .comic {
         flex-direction: column;
         height: auto;
