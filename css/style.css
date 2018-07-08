@@ -334,9 +334,9 @@ a {
       margin-bottom: 24px; } }
 
 @media screen and (max-width: 560px) {
-  .app__comic-page .topper {
+  .app__comic-page .ad {
     padding: 0; }
-  .ad {
+  .app__comic-page .topper {
     padding: 0; }
   .comic {
     -webkit-box-orient: vertical;
